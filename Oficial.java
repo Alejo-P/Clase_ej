@@ -3,7 +3,7 @@ public class Oficial extends Operario {
     {
         super(Nombre, Codigo);
     }
-    public void setOficial()
+    public void saludoOficial()
     {
         System.out.println("Saludo desde oficial");
         System.out.print("Mi nombre es: ");

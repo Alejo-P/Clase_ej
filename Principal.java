@@ -1,11 +1,16 @@
 public class Principal
 {
-    public static void main(String[] args)
-    {
-        Empleados E101=new Empleados("Juan", "162534");
-        Operario E102=new Operario("Jose", "87346583");
-
-        System.out.println(E101.getNombre());
-        E102.setOperario();
-    }
+    public static void main(String[] args) {
+        Empleados E1=new Empleados("Pedro","0001");
+        Operario O1=new Operario("Juan","0002");
+        Directivo D1=new Directivo("Andrea","0003");
+    
+    
+            O1.saludoOperario();
+            O1.saludo();
+    
+            D1.saludoDirectivo();
+            D1.saludo();
+    
+        }
 }

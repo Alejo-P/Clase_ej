@@ -4,7 +4,7 @@ public class Directivo extends Empleados {
         super(Nombre, Codigo);
     }
 
-    public void setDirectivo()
+    public void saludoDirectivo()
     {
         System.out.println("Saludo desde Directivo");
         System.out.print("Mi nombre es: ");

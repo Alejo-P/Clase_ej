@@ -1,28 +1,30 @@
 public class Empleados {
-    //Atributos
-    public String Nombre, Codigo;
+    String nombre;
+    String codigo;
 
-    //Constructor
-    public Empleados(String nombre, String codigo){
-        this.Nombre=nombre;
-        this.Codigo=codigo;
+    public Empleados(String nombre, String codigo) {
+        this.nombre = nombre;
+        this.codigo = codigo;
     }
 
-    //Metodos (setters y getters)
     public String getNombre() {
-        return Nombre;
-    }
-
-    public String getCodigo() {
-        return Codigo;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
+    }
+
+    public String getCodigo() {
+        return codigo;
     }
 
     public void setCodigo(String codigo) {
-        Codigo = codigo;
+        this.codigo = codigo;
     }
-    
+
+    //metodo personalizado
+    public void saludo(){
+        System.out.println("Hola a todos desde empleado");
+    }
 }

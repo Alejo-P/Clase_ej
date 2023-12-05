@@ -4,7 +4,7 @@ public class Tecnico extends Operario {
         super(Nombre, Codigo);
     }
 
-    public void setTecnico()
+    public void saludoTecnico()
     {
         System.out.println("Saludo desde Tecnico");
         System.out.print("Mi nombre es: ");
