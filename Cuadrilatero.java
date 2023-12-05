@@ -1,32 +1,26 @@
 public class Cuadrilatero {
     public double lado1, lado2;
 
-    public Cuadrilatero(double lado1, double lado2) {
-        this.lado1 = lado1;
-        this.lado2=lado2;
+    public Cuadrilatero(double l1, double l2) {
+        this.lado1=l1;
+        this.lado2=l2;
     }
     //Setters y getters
 
-    private double getLado() {
-        return lado1+lado2;
-    }
-    public double Perimetro(double lado)
+    public double Perimetro()
     {
-        //Obtener el lado del cuadrado
-        this.getLado();
-        double perimetro=lado*4;
+        //Obtener el lado del cuadrado;
+        double perimetro=2*lado1+2*lado2;
         return perimetro;
-    }
-    public void Info()
-    {
-        System.out.println("Lado del cuadrado "+this.lado+"\nPerimetro del cuadrado "+ this.Perimetro(4));
     }
     public void area()
     {
-        System.out.println("El area del cuadrado es:" +Math.pow(this.lado, 2));
+        double area=lado1*lado2;
+        System.out.println("El area del cuadrado es: "+area);
     }
     public void diag()
     {
-        System.out.printf("laq diagonal del cuadrado es: %.2f m2", Math.sqrt(Math.pow(this.lado,2)+ (Math.pow(this.lado, 2))));
+        double diagonal=(Math.sqrt(Math.pow(lado1,2)+Math.pow(lado2,2)));
+        System.out.printf("laq diagonal del cuadrado es: %.2f m2", diagonal);
     }
 }
