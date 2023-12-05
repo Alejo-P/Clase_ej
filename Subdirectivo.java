@@ -1,4 +1,6 @@
 public class Subdirectivo extends Directivo {
+    String Ciudad;
+    Double Sueldo;
     public Subdirectivo (String Nombre, String Codigo)
     {
         super(Nombre, Codigo);

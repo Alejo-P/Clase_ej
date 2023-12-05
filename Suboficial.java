@@ -1,4 +1,6 @@
 public class Suboficial extends Oficial {
+    String Ciudad;
+    Double Sueldo;
     public Suboficial (String Nombre, String codigo)
     {
         super(Nombre,codigo);

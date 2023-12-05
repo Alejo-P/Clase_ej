@@ -1,4 +1,6 @@
 public class Operario extends Empleados {
+    String Ciudad;
+    Double Sueldo;
     public Operario(String Nombre, String Codigo){
         super(Nombre,Codigo);
     }

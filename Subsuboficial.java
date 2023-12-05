@@ -1,9 +1,11 @@
 public class Subsuboficial extends Suboficial {
-   public Subsuboficial (String Nombre, String Codigo)
-   {
+    String Ciudad;
+    Double Sueldo;
+    public Subsuboficial (String Nombre, String Codigo)
+    {
         super(Nombre, Codigo);
-   } 
-   public void saludoSussuboficial()
+    } 
+    public void saludoSussuboficial()
     {
         System.out.println("Saludo desde Sussuboficial");
         System.out.print("Mi nombre es: ");
