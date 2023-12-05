@@ -7,7 +7,11 @@ public class Principal
         Subdirectivo S1=new Subdirectivo("Angel", "0004");
         Suboficial So1=new Suboficial("Jose", "0005");
         Subsuboficial Sso1=new Subsuboficial("Francisco", "0006");
-    
+
+            E1.getCodigo();
+            E1.getNombre();
+            E1.saludo();
+
             O1.saludoOperario();
             O1.saludo();
     
