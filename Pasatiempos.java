@@ -11,6 +11,6 @@ public class Pasatiempos {
     //Metodos (Setters y Getters)
     public void getInfo()
     {
-        System.out.printf("Nombre del pasatiempo: %s\nFrecuencia con la que se realiza: %.2f\nCantidad de tiempo que se le dedica: &.2f\n", this.Nombre, this.Frecuencia, this.tiempo);
+        System.out.printf("Nombre del pasatiempo: %s\nFrecuencia con la que se realiza: %.2f\nCantidad de tiempo que se le dedica: %.2f\n", this.Nombre, this.Frecuencia, this.tiempo);
     }
 }
