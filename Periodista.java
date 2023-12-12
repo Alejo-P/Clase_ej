@@ -15,4 +15,9 @@ public class Periodista extends Persona {
     {
         System.out.println("Hola a todos, desde periodista!");
     }
+    @Override
+    public double Impuestos(double Sueldo)
+    {
+        return Sueldo*0.15;
+    }
 }

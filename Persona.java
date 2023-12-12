@@ -3,6 +3,7 @@ public class Persona {
     String nombre;
     String cedula;
     int edad;
+    double sueldos;
     String fechaNacimiento;
     String TipoSangre;
     // 3 Constructores de la clase persona
@@ -57,11 +58,19 @@ public class Persona {
     public void setTipoSangre(String ts) {
         this.TipoSangre = ts;
     }
-
+    public void setSueldo(double sueldo) {
+        this.sueldos = sueldo;
+    };
 
     //Funciones personalizadas
     public void Saludar()
     {
         System.out.println("Hola a todos!");
     }
+    public double Impuestos(double Sueldo)
+    {
+        double impuesto=Sueldo*0.25;
+        return impuesto;
+    }
 }
+    

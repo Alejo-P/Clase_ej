@@ -15,4 +15,9 @@ public class Chef extends Persona{
     {
         System.out.println("Hola a todos, desde chef!");
     }
+    @Override
+    public double Impuestos (double Sueldo)
+    {
+        return Sueldo*0.15;
+    }
 }

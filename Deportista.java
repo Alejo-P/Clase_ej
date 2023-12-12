@@ -17,5 +17,11 @@ public class Deportista extends Persona {
     public void Saludar()
     {
         System.out.println("Hola a todos, desde deportistas!");
+    };
+
+    @Override
+    public double Impuestos(double Sueldo)
+    {
+        return 0;//No pagan impuestos
     }
 }
