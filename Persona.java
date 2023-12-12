@@ -58,4 +58,10 @@ public class Persona {
         this.TipoSangre = ts;
     }
 
+
+    //Funciones personalizadas
+    public void Saludar()
+    {
+        System.out.println("Hola a todos!");
+    }
 }

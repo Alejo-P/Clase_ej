@@ -9,4 +9,10 @@ public class Periodista extends Persona {
     {
         super(nombre,cedula,edad,fechaNacimiento,tipoSangre);
     }
+    //Sobreescribir un metodo de la clase padre
+    @Override
+    public void Saludar()
+    {
+        System.out.println("Hola a todos, desde periodista!");
+    }
 }
