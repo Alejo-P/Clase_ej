@@ -11,6 +11,7 @@ public class Herencia3 {
         per.Saludar();
         chef.Saludar();
         dep.Saludar();
+        dep.e
         System.out.println("Imformacion de los impuestos:");
         System.out.printf("\nImpuestos persona1: %.2f",p1.Impuestos(45.34));
         System.out.printf("\nImpuestos persona2: %.2f",per.Impuestos(15.50));

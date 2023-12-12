@@ -24,4 +24,13 @@ public class Deportista extends Persona {
     {
         return 0;//No pagan impuestos
     }
+    //Sobrecarga de metodos
+    public int edades(int valor)
+    {
+        return 0;
+    }
+    public int edades(double valor)
+    {
+        return 1;
+    }
 }
