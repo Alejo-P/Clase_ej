@@ -10,8 +10,17 @@ public class Clase_19 {
         }
         //Arreglos de enteros de 2 dimensiones
         int [][] matriz = {{3,5,7}, {1,2,4}};
+        System.out.println("longitud de una fila: "+matriz[0].length); //Longitud de una fila
         System.out.println("longitud: "+matriz.length);
         System.out.println("Accediendo a la direccion de memoria elemento 0 de la matriz: "+ matriz[0]); //Direccion de memoria
         System.out.println("Accediendo al elemento 0 de la matriz: "+ matriz[0][0]); // Acceder a un elemento
+        for (int j=0;j<matriz.length;j++)
+        {
+            for (int k=0;k<matriz[j].length;k++)
+            {
+                System.out.print(matriz [j] [k]+ " ");
+            }
+            System.out.println();
+        }
     }
 }
