@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Clase_19 {
     public static void main(String[] args)
     {
-        Cast();   
+        Ejercicio1();   
     }
     static public void tema()
     {
@@ -34,6 +34,7 @@ public class Clase_19 {
         Scanner sc=new Scanner(System.in);
         //Arreglos
         String [] materias=new String[3];
+        Double [][] calificaciones;
         for (int i=0; i<materias.length; i++)
         {
             System.out.printf("Ingrese el nombre de la materia %d:", i);
@@ -44,13 +45,22 @@ public class Clase_19 {
         {
             System.out.printf("Ingrese el numero de calificaciones para la materia %s >", materias[i]);
             int cantidad=sc.nextInt();
-            Double [] Calificaciones=new Double[cantidad];
+            calificaciones=new Double[materias.length][cantidad];
             for (int j=0; j<cantidad; j++)
             {
                 System.out.printf("Ingrese la calificacion %d para la materia %s >", j, materias[i]);
-                Calificaciones[j]=sc.nextDouble();
+                calificaciones[i][j]=sc.nextDouble();
             }
-        } 
+            sc.next();
+        }
+        //Obtener las calificaciones de cada materia
+        for (int i=0; i<materias.length; i++)
+        {
+            for (int j=0; j<calificaciones[i].length; j++)
+            {
+                System.out.printf("Calificacion %d de la materia %s es ", j+1, materias[i]);
+            }
+        }
     }
     static public void Cast()
     {
