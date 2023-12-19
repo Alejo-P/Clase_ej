@@ -55,7 +55,7 @@ public class Manejo_de_excepciones {
                 System.out.print("Ingrese una estatura valida > ");
                 altura = sc.nextFloat();
             }
-            imc=(float)(peso/(Math.pow(altura,2)));
+            imc = (float) (peso / (Math.pow(altura,2)));
             System.out.printf("Tu IMC es %.3f\n",imc);
         }
         catch (Exception e)
