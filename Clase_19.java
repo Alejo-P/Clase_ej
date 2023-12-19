@@ -14,13 +14,13 @@ public class Clase_19 {
         System.out.println("longitud: "+matriz.length);
         System.out.println("Accediendo a la direccion de memoria elemento 0 de la matriz: "+ matriz[0]); //Direccion de memoria
         System.out.println("Accediendo al elemento 0 de la matriz: "+ matriz[0][0]); // Acceder a un elemento
-        for (int j=0;j<matriz.length;j++)
+        for (int j=0;j<matriz.length;j++) //Iterar entre cada elemento de la matriz (filas)
         {
-            for (int k=0;k<matriz[j].length;k++)
+            for (int k=0;k<matriz[j].length;k++) //iterar entre cada elemento de una fila de la matriz
             {
-                System.out.print(matriz [j] [k]+ " ");
+                System.out.print(matriz [j] [k]+ " "); //Imprimir los elementos de la fila de la matriz
             }
-            System.out.println();
+            System.out.println(); //imprimir un salto de linea
         }
     }
 }
