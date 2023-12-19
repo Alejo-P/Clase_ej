@@ -73,7 +73,7 @@ public class Manejo_de_excepciones {
     {
         ArrayList<String> lista1=new ArrayList<>();
         lista1.add("Hola");
-        lista1.add(" a tooos");
+        lista1.add("a tooos");
         lista1.add("Adios");
         for (int i=0;i<lista1.size(); i++)
         {
