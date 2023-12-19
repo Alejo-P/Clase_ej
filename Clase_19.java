@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class Clase_19 {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args)
+    {
+        Cast();   
     }
     static public void tema()
     {
@@ -50,6 +51,20 @@ public class Clase_19 {
                 Calificaciones[j]=sc.nextDouble();
             }
         } 
-        
+    }
+    static public void Cast()
+    {
+        int numero=2;
+        // De entero a flotante
+        double decimal=numero, otronumero=3.0;
+        // De int a long
+        long otrodecimal=(long)decimal;
+        // De byte a short
+        byte binario=110;
+        short otrobinario=binario;
+        System.out.printf("Mi entero es %d y el numero flotante es %.2f\n", numero, decimal);
+        System.out.printf("Y mi otro numero flotante era %.2f\n", otronumero);
+        System.out.printf("Pero si lo convierto a long me queda %d\n", otrodecimal);
+        System.out.printf("Ahora si que se ve que puedo pasar un byte a un short, este tiene valor de %d\n", otrobinario);
     }
 }
