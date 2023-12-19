@@ -1,5 +1,10 @@
+import java.util.Scanner;
 public class Clase_19 {
     public static void main(String[] args) {
+        
+    }
+    static public void tema()
+    {
         int [] pares={2, 4, 6, 8, 12, 14, 16, 18};
         String [] marcas={"Mercedes", "Nissan", "Kia", "Chevrolet", "Toyota", "Chery", "Hyundai", "Renault", "Shineray"};
         marcas[7]="Buses";
@@ -22,5 +27,28 @@ public class Clase_19 {
             }
             System.out.println(); //imprimir un salto de linea
         }
+    }
+    static public void Ejercicio1()
+    {
+        Scanner sc=new Scanner(System.in);
+        //Arreglos
+        String [] materias=new String[3];
+        for (int i=0; i<materias.length; i++)
+        {
+            System.out.printf("Ingrese el nombre de la materia %d:", i);
+            materias[i]=sc.nextLine();
+        }
+        sc.nextLine();
+        for (int i=0; i<materias.length; i++)
+        {
+            System.out.printf("Ingrese el numero de calificaciones para la materia %s >", materias[i]);
+            int cantidad=sc.nextInt();
+            Double [] Calificaciones=new Double[cantidad];
+            for (int j=0; j<cantidad; j++)
+            {
+                System.out.printf("Ingrese la calificacion %d para la materia %s >", j, materias[i]);
+            }
+        } 
+        
     }
 }
