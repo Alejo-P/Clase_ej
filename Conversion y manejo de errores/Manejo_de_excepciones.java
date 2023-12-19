@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Manejo_de_excepciones {
     public static void main(String[] args)
     {
-        IMC();
+        lista();
     }
     static public void manejo()
     {
@@ -67,5 +68,13 @@ public class Manejo_de_excepciones {
             System.out.println("Fin del programa!");
         }
         sc.close();
+    }
+    static public void lista()
+    {
+        ArrayList<String> lista1=new ArrayList<>();
+        lista1.add("Hola");
+        lista1.add(" a tooos");
+        lista1.add("Adios");
+        System.out.println(lista1);
     }
 }
