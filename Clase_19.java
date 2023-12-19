@@ -62,9 +62,13 @@ public class Clase_19 {
         // De byte a short
         byte binario=110;
         short otrobinario=binario;
+        // De string a int
+        String cadena="12345";
+        int EnteroCadena=Integer.valueOf(cadena);
         System.out.printf("Mi entero es %d y el numero flotante es %.2f\n", numero, decimal);
         System.out.printf("Y mi otro numero flotante era %.2f\n", otronumero);
         System.out.printf("Pero si lo convierto a long me queda %d\n", otrodecimal);
         System.out.printf("Ahora si que se ve que puedo pasar un byte a un short, este tiene valor de %d\n", otrobinario);
+        System.out.printf("El numero convertido es %d y sumando 1 da %d\n", EnteroCadena, EnteroCadena+1);
     }
 }
