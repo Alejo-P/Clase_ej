@@ -75,6 +75,9 @@ public class Manejo_de_excepciones {
         lista1.add("Hola");
         lista1.add(" a tooos");
         lista1.add("Adios");
-        System.out.println(lista1);
+        for (int i=0;i<lista1.size(); i++)
+        {
+            System.out.println(lista1.get(i));
+        }
     }
 }
