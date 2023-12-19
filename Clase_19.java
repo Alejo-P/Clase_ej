@@ -47,6 +47,7 @@ public class Clase_19 {
             for (int j=0; j<cantidad; j++)
             {
                 System.out.printf("Ingrese la calificacion %d para la materia %s >", j, materias[i]);
+                Calificaciones[j]=sc.nextDouble();
             }
         } 
         
