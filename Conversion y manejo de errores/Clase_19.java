@@ -56,7 +56,7 @@ public class Clase_19 {
         //Obtener las calificaciones de cada materia
         for (int i=0; i<materias.length; i++)
         {
-            for (int j=0; j<calificaciones[i].length; j++)
+            for (int j=0; j<5; j++)
             {
                 System.out.printf("Calificacion %d de la materia %s es ", j+1, materias[i]);
             }
