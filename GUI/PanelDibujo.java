@@ -1,7 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 public class PanelDibujo extends JPanel {
-    public void PaintComponent(Graphics g)
+    @Override
+    public void paintComponent(Graphics g)
     {
         super.paintComponent(g); //llamada a la clase padre para que se muestren los colores de fondo y borde
         int ancho = getWidth(); //obtener el ancho del panel
